@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Build and push the reg32.dev home page image to Docker Hub.
+# Build and push the manojawasthi.com home page image to Docker Hub.
 # Usage:
 #   ./deploy.sh              # tags as :latest and :<git-sha> (or a timestamp if not a git repo)
 #   ./deploy.sh v1.2.3       # tags as :latest and :v1.2.3

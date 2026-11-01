@@ -25,5 +25,5 @@ docker run -d \
   -p "127.0.0.1:${HOST_PORT}:80" \
   "$IMAGE:$TAG"
 
-echo ">> Running on http://127.0.0.1:${HOST_PORT} — point Caddy's reg32.dev block at it"
+echo ">> Running on http://127.0.0.1:${HOST_PORT} — point Caddy's manojawasthi.com block at it"
 docker ps --filter "name=^${NAME}$"
