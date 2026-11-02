@@ -11,7 +11,7 @@ set -euo pipefail
 IMAGE="awmanoj/home"
 TAG="${1:-latest}"
 NAME="home"
-HOST_PORT="${HOST_PORT:-8090}"
+HOST_PORT="${HOST_PORT:-9080}"
 
 echo ">> Pulling $IMAGE:$TAG"
 docker pull "$IMAGE:$TAG"
